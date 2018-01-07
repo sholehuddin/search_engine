@@ -6,10 +6,13 @@
     "type": "project",
     "require": {
         "php": ">=7.0.0",
-        "cviebrock/laravel-elasticsearch": "^3.1",
+        "algolia/algoliasearch-client-php": "^1.25",
+        "elasticsearch/elasticsearch": "^5.0",
         "fideloper/proxy": "~3.3",
         "laravel/framework": "5.5.*",
-        "laravel/tinker": "~1.0"
+        "laravel/tinker": "~1.0",
+        "recca0120/terminal": "^1.6.8",
+        "tamayo/laravel-scout-elastic": "^3.0"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
